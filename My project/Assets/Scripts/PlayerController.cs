@@ -1,67 +1,88 @@
 ﻿using UnityEngine;
 
-// تحكم في حركة اللاعب وهجومه وقفزه
-public class PlayerController: MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    // سرعة الحركة
-    public float moveSpeed = 5f;
+    [SerializeField] private float jumpForce = 14f; // قوة القفز
+    [SerializeField] private float movementSpeed = 7f; // سرعة الحركة الأفقية
 
-    // مفاتيح الهجوم والقفز
-    public KeyCode attackKey = KeyCode.Space;
-    public KeyCode jumpKey = KeyCode.E;
-
-    // مؤشر الرسوم المتحركة
+    private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer sprite;
+    private BoxCollider2D collid;
 
-    // التحقق من وجود مؤشر الرسوم المتحركة
-    void Start()
+    private enum PlayerState { Idle, Running, Jumping, Falling } // حالات اللاعب
+
+    private PlayerState state;
+
+    [SerializeField] private LayerMask jumpingLayer; // اللير المستخدمة للكشف عن الأرض
+    [SerializeField] private AudioSource jumpSound; // مصدر الصوت المستخدم للقفز
+
+    [SerializeField] private GameObject plane; // الطائرة الخاصة باللاعب
+
+    private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        if (animator == null)
-        {
-            Debug.LogError("اللاعب لا يحتوي على مؤشر Animator.");
-        }
+        sprite = GetComponent<SpriteRenderer>();
+        collid = GetComponent<BoxCollider2D>();
     }
 
-    // التحكم في حركة اللاعب
-    public void Move(float x, float y)
+    // تحديث حركة اللاعب
+    private void Update()
     {
-        Vector2 movement = new Vector2(x, y).normalized * moveSpeed;
-        transform.Translate(movement * Time.deltaTime);
+        float movement = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(movement * movementSpeed, rb.velocity.y);
 
-        // تحديث رسوم اللاعب
-        if (animator != null)
+        if (Input.GetButtonDown("Jump") && IsOnGround())
         {
-            animator.SetFloat("Horizontal", x);
-            animator.SetFloat("Vertical", y);
-            animator.SetFloat("Speed", movement.magnitude);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            jumpSound.Play();
         }
+
+        UpdateAnimator();
     }
 
-    // التحكم في هجوم اللاعب
-    public void Attack()
+    // تحديث حالة اللاعب في الأنيميشن
+    private void UpdateAnimator()
     {
-        // تشغيل الرسوم المتحركة للهجوم
-        if (animator != null)
+        if (Mathf.Abs(rb.velocity.x) > 0f)
         {
-            animator.SetTrigger("Attack");
+            state = PlayerState.Running;
+            sprite.flipX = rb.velocity.x < 0f;
+        }
+        else
+        {
+            state = PlayerState.Idle;
         }
 
-        // إطلاق صوت الهجوم
-        AudioSource audioSource = GetComponent<AudioSource>();
-        if (audioSource != null)
+        if (rb.velocity.y > .1f)
         {
-            audioSource.Play();
+            state = PlayerState.Jumping;
         }
+        else if (rb.velocity.y < -.1f)
+        {
+            state = PlayerState.Falling;
+        }
+
+        animator.SetInteger("State", (int)state);
     }
 
-    // التحكم في قفز اللاعب
-    public void Jump()
+    // الكشف عن وجود اللاعب على الأرض
+    private bool IsOnGround()
     {
-        // تشغيل الرسوم المتحركة للقفز
-        if (animator != null)
+        return Physics2D.BoxCast(collid.bounds.center, collid.bounds.size, 0f, Vector2.down, .1f, jumpingLayer);
+    }
+
+    // اكتشاف اصطدام اللاعب بالآلة وتفعيل الطائرة
+    private void OnTriggerEnter2D(Collider2D collider2D)
+    {
+        if (collider2D.gameObject.CompareTag("Machine"))
         {
-            animator.SetTrigger("Jump");
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                rb.bodyType = RigidbodyType2D.Static;
+                plane.SetActive(true);
+            }
         }
     }
 }
