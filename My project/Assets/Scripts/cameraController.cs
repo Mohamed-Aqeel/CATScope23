@@ -1,13 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class cameraController : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Transform player;
+    public string targetTag = "Player"; // اسم tag للعبة
+    public Vector3 offset; // الإزاحة بين اللاعب والكاميرا
+    public float smoothSpeed = 0.125f; // سرعة تحريك الكاميرا
 
-    private void Update()
+    private Transform target; // مرجع اللاعب الحالي
+
+    void Start()
     {
-        transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
+        target = GameObject.FindWithTag(targetTag).transform; // البحث عن اللاعب باستخدام الـ tag
+    }
+
+    void FixedUpdate()
+    {
+        if (target != null)
+        {
+            Vector3 desiredPosition = target.position + offset; // حساب موقع الكاميرا المطلوب
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed); // تحريك الكاميرا بشكل سلس
+            transform.position = smoothedPosition;
+        }
     }
 }
