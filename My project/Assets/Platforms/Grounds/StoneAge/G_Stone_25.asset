@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: G_Stone_25
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300226, guid: 2c06fc137f4d6824aa6eaaf5fc8ec5ad, type: 3}
-  m_Color: {r: 0.735849, g: 0.4995567, b: 0.15619439, a: 1}
+  m_Color: {r: 0.7058824, g: 0.47450984, b: 0.14901961, a: 1}
   m_Transform:
     e00: 1
     e01: 0
