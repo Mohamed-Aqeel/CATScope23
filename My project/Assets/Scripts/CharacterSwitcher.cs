@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-
+﻿/*using UnityEngine;
 public class CharacterSwitcher : MonoBehaviour
 {
     // الشخصيات
@@ -11,8 +10,16 @@ public class CharacterSwitcher : MonoBehaviour
     // مفاتيح التحويل بين الشخصيات
     public KeyCode[][] characterSwitchKeys;
 
+    // نقاط الصحة والدرع لجميع الشخصيات
+    public int maxHealth = 200;
+    public int maxArmor = 200;
+
     // مؤشر الشخصية الحالية
     private int currentCharacterIndex = 0;
+
+    // نقاط الصحة والدرع للشخصية الحالية
+    private int currentHealth;
+    private int currentArmor;
 
     // التحقق من أن الشخصية الحالية لديها PlayerController
     void Start()
@@ -35,6 +42,9 @@ public class CharacterSwitcher : MonoBehaviour
         {
             Debug.LogError("الشخصية الحالية لا تحتوي على مكون PlayerController.");
         }
+
+        currentHealth = maxHealth;
+        currentArmor = (currentCharacterIndex == 0) ? maxArmor : 0;
     }
 
     void Update()
@@ -48,48 +58,61 @@ public class CharacterSwitcher : MonoBehaviour
             // الانتقال إلى الشخصية التالية
             currentCharacterIndex = (currentCharacterIndex + 1) % characters.Length;
 
-            // إظهار الشخصية الجديدة و التأكد من أنها لديها PlayerController
+            // إظهار الشخصية الجديدة وتحديث نقاط الصحة والدرع
             characters[currentCharacterIndex].SetActive(true);
-            characters[currentCharacterIndex].transform.position = characters[(currentCharacterIndex + characters.Length - 1) % characters.Length].transform.position;
             PlayerController pc = characters[currentCharacterIndex].GetComponent<PlayerController>();
             if (pc == null)
             {
                 Debug.LogError("الشخصية الحالية لا تحتوي على مكون PlayerController.");
             }
+
+            currentHealth = maxHealth;
+            currentArmor = (currentCharacterIndex == 0) ? maxArmor : 0;
         }
 
-        
-
-        // التحويل بين الشخصيات بواسطة مفاتيح مخصصة
-        for (int i = 0; i < characterSwitchKeys[currentCharacterIndex].Length; i++)
+        // التحقق من لمس اللاعب أو العدو
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.5f);
+        foreach (Collider2D collider in colliders)
         {
-            if (Input.GetKeyDown(characterSwitchKeys[currentCharacterIndex][i]))
+            // لمس اللاعب
+            if (collider.CompareTag("Player"))
             {
-                // إخفاء جميع الشخصيات باستثناء الشخصية المحددة
-                for (int j = 0; j < characters.Length; j++)
+                currentHealth -= 200;
+                if (currentHealth <= 0)
                 {
-                    if (j == i)
+                    // إظهار انميشن الموت
+                    Debug.Log("اللاعب مات!");
+                }
+            }
+
+            // لمس العدو
+            if (collider.CompareTag("Enemy"))
+            {
+                int damage = 20;
+                if (currentCharacterIndex == 0 && currentArmor > 0)
+                {
+                    currentArmor -= damage;
+                    if (currentArmor < 0)
                     {
-                        characters[j].SetActive(true);
-                    }
-                    else
-                    {
-                        characters[j].SetActive(false);
+                        currentArmor = 0;
+                        currentHealth -= damage;
                     }
                 }
-
-                // تحديد الشخصية المحددة كشخصية حالية
-                currentCharacterIndex = i;
-
-                // التأكد من أن الشخصية الحالية لديها PlayerController
-                PlayerController pc = characters[currentCharacterIndex].GetComponent<PlayerController>();
-                if (pc == null)
+                else
                 {
-                    Debug.LogError("الشخصية الحالية لا تحتوي على مكون PlayerController.");
+                    currentHealth -= damage;
                 }
 
-                break;
+                if (currentHealth <= 0)
+                {
+                    // إظهار انميشن الموت
+                    Debug.Log("اللاعب مات!");
+                }
             }
         }
     }
-}
+    public int GetCurrentCharacterIndex()
+    {
+        return currentCharacterIndex;
+    }
+}*/
