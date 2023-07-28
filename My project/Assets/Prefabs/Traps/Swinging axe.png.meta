@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: -4463572223065646980
     second: Swinging axe_1
+  - first:
+      213: 380102807867603147
+    second: Swinging axe_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +102,7 @@ TextureImporter:
         x: 1338
         y: 31
         width: 12
-        height: 33
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,7 +125,7 @@ TextureImporter:
         width: 46
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,6 +133,27 @@ TextureImporter:
       bones: []
       spriteID: c781fde46b43e02c0800000000000000
       internalID: -4463572223065646980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swinging axe_2
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 57
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8b3196d75664500800000000000000
+      internalID: 380102807867603147
       vertices: []
       indices: 
       edges: []
