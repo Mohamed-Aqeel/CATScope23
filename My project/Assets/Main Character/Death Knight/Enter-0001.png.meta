@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 819b443836f1f6e42bcf5af49085601f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8889029894312152465
+    second: Enter-0001_0
+  - first:
+      213: 3911896936758275032
+    second: Enter-0001_1
+  - first:
+      213: -8159956058121268528
+    second: Enter-0001_2
+  - first:
+      213: 4235823588431345780
+    second: Enter-0001_3
+  - first:
+      213: 1966836038721497287
+    second: Enter-0001_4
+  - first:
+      213: 3251559945547027070
+    second: Enter-0001_5
+  - first:
+      213: -1281295194270384084
+    second: Enter-0001_6
+  - first:
+      213: -4012718147382459783
+    second: Enter-0001_7
+  - first:
+      213: 6884257994470041874
+    second: Enter-0001_8
+  - first:
+      213: -4346582097035400638
+    second: Enter-0001_9
+  - first:
+      213: -7731834846302422706
+    second: Enter-0001_10
+  - first:
+      213: -9011320729402078125
+    second: Enter-0001_11
+  - first:
+      213: 2449745856620154298
+    second: Enter-0001_12
+  - first:
+      213: -7107447130106263089
+    second: Enter-0001_13
+  - first:
+      213: 3364397934708599613
+    second: Enter-0001_14
+  - first:
+      213: -172194527123487322
+    second: Enter-0001_15
+  - first:
+      213: -4398898150804536879
+    second: Enter-0001_16
+  - first:
+      213: 1505217776460317880
+    second: Enter-0001_17
+  - first:
+      213: 2288709813517843606
+    second: Enter-0001_18
+  - first:
+      213: 4395068635656498356
+    second: Enter-0001_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enter-0001_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dcd40c79d2c5b70800000000000000
+      internalID: 8889029894312152465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 13
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db6a61b989d94630800000000000000
+      internalID: 3911896936758275032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 13
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d292ecc23302ce80800000000000000
+      internalID: -8159956058121268528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 13
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bbaf7c1ba8ca30800000000000000
+      internalID: 4235823588431345780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 13
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c86e6bd4fa9b4b10800000000000000
+      internalID: 1966836038721497287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 13
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7218300b8cdf1d20800000000000000
+      internalID: 3251559945547027070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 29
+        width: 47
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2049153fcce73ee0800000000000000
+      internalID: -1281295194270384084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 78
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9724181fa16ff48c0800000000000000
+      internalID: -4012718147382459783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 29
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219a78eeb2cc98f50800000000000000
+      internalID: 6884257994470041874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_9
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 29
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ae127ac96dda3c0800000000000000
+      internalID: -4346582097035400638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49382c1c2103b490800000000000000
+      internalID: -7731834846302422706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_11
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c00e66a8b51f280800000000000000
+      internalID: -9011320729402078125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_12
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd44d590ee3ff120800000000000000
+      internalID: 2449745856620154298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc98526fd764d5d90800000000000000
+      internalID: -7107447130106263089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_14
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b2d55a81eb0be20800000000000000
+      internalID: 3364397934708599613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_15
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c98a6dfd3c9df0800000000000000
+      internalID: -172194527123487322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_16
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d14c2e2079f3f2c0800000000000000
+      internalID: -4398898150804536879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_17
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 29
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4458bb79b93e410800000000000000
+      internalID: 1505217776460317880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 29
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c7ea4037123cf10800000000000000
+      internalID: 2288709813517843606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enter-0001_19
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 29
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc24c753ab6efc30800000000000000
+      internalID: 4395068635656498356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ffbcd28754c792c4cbb64b7f3d0dad96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 58686ded4b19c3c40adf5df3358e2702
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1202974456720800672
+    second: xcaliper-0001_2
+  - first:
+      213: 6090891690520984669
+    second: xcaliper-0001_3
+  - first:
+      213: -4703461391627991816
+    second: xcaliper-0001_4
+  - first:
+      213: -3240610688435618512
+    second: xcaliper-0001_5
+  - first:
+      213: 6870030938092942259
+    second: xcaliper-0001_6
+  - first:
+      213: -6090188334241732655
+    second: xcaliper-0001_7
+  - first:
+      213: 7962716865540500379
+    second: xcaliper-0001_8
+  - first:
+      213: 4603457959629402954
+    second: xcaliper-0001_9
+  - first:
+      213: 792411240467677180
+    second: xcaliper-0001_10
+  - first:
+      213: 5619606223749359941
+    second: xcaliper-0001_11
+  - first:
+      213: 7776952356698926828
+    second: xcaliper-0001_12
+  - first:
+      213: 6613961409158669014
+    second: xcaliper-0001_13
+  - first:
+      213: 4125880260403748567
+    second: xcaliper-0001_14
+  - first:
+      213: -1797335483325951244
+    second: xcaliper-0001_15
+  - first:
+      213: -3326067075426660067
+    second: xcaliper-0001_16
+  - first:
+      213: 6100363338768424416
+    second: xcaliper-0001_17
+  - first:
+      213: 4795206109676147774
+    second: xcaliper-0001_18
+  - first:
+      213: -6285175696955637339
+    second: xcaliper-0001_19
+  - first:
+      213: -3213348034164378389
+    second: xcaliper-0001_24
+  - first:
+      213: 8933782273335201365
+    second: xcaliper-0001_25
+  - first:
+      213: 1333471126069233010
+    second: xcaliper-0001_26
+  - first:
+      213: 2741281999121399565
+    second: xcaliper-0001_27
+  - first:
+      213: 6775502355285545579
+    second: xcaliper-0001_28
+  - first:
+      213: -7381166958456401878
+    second: xcaliper-0001_30
+  - first:
+      213: -847842178784395748
+    second: xcaliper-0001_31
+  - first:
+      213: 384530468392880325
+    second: xcaliper-0001_32
+  - first:
+      213: 518904451601914284
+    second: xcaliper-0001_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xcaliper-0001_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 29
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c941fa1d2e4fe0800000000000000
+      internalID: -1202974456720800672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 13
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb1eab8b1378450800000000000000
+      internalID: 6090891690520984669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_4
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 13
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4cf39c8c2f9beb0800000000000000
+      internalID: -4703461391627991816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_5
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 13
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df5749fb90703d0800000000000000
+      internalID: -3240610688435618512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_6
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 13
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b339fc3db0475f50800000000000000
+      internalID: 6870030938092942259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_7
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 29
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d72b4a2afd4b7ba0800000000000000
+      internalID: -6090188334241732655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_8
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 29
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bad890dc0418e60800000000000000
+      internalID: 7962716865540500379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_9
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43b726cf94c2ef30800000000000000
+      internalID: 4603457959629402954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_10
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff3a1823d53ffa00800000000000000
+      internalID: 792411240467677180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_11
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549a728261adcfd40800000000000000
+      internalID: 5619606223749359941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_12
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee2d20e6f84deb60800000000000000
+      internalID: 7776952356698926828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_13
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d26b0ffbd289cb50800000000000000
+      internalID: 6613961409158669014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_14
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de592bac32124930800000000000000
+      internalID: 4125880260403748567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_15
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2d62e86e49e07e0800000000000000
+      internalID: -1797335483325951244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_16
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11521efd9f67d1d0800000000000000
+      internalID: -3326067075426660067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_17
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 29
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed9b10b228d8a450800000000000000
+      internalID: 6100363338768424416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_18
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 29
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349708fc8efb8240800000000000000
+      internalID: 4795206109676147774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_19
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 29
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a18a00010296c8a0800000000000000
+      internalID: -6285175696955637339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_24
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 45
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4beebecf4e763d0800000000000000
+      internalID: -3213348034164378389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_25
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 45
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e83d6f4ab2bfb70800000000000000
+      internalID: 8933782273335201365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_26
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 45
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275c8939ce0718210800000000000000
+      internalID: 1333471126069233010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_27
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 45
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fbdca447dfa0620800000000000000
+      internalID: 2741281999121399565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_28
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 45
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b621e957e7b670e50800000000000000
+      internalID: 6775502355285545579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_30
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 13
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a201b5522c3d09990800000000000000
+      internalID: -7381166958456401878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_31
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 13
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e76fbc70cdb34f0800000000000000
+      internalID: -847842178784395748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_32
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 78
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c84fd57c60265500800000000000000
+      internalID: 384530468392880325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xcaliper-0001_36
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 13
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d91679d4833700800000000000000
+      internalID: 518904451601914284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dc8d43416e4841648beaba24dafca69e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
